@@ -1,13 +1,17 @@
-function App() {
+import React from 'react'
+
+const App = () => {
   return (
-    <div style={styles.container}>
+    <div>
+      <div style={styles.container}>
       <div style={styles.card}>
         <h1 style={styles.title}>DIYA</h1>
         <p style={styles.contact}>📧 diya94816@gmail.com</p>
         <p style={styles.contact}>📞 +123 456 7890</p>
       </div>
     </div>
-  );
+    </div>
+  )
 }
 
 const styles = {
@@ -37,4 +41,5 @@ const styles = {
   },
 };
 
-export default App;
+
+export default App
